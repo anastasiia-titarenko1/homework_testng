@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test" verbose="1">
+    <parameter name="firstname" value="Natalia"/>
+    <parameter name="lastname" value="Ivanova"></parameter>
+    <test name="test_param">
+        <classes>
+            <class name="com.example.TestParam"/>
+        </classes>
+    </test>
+
+<!--    <test name="test_setup">-->
+<!--        <packages>-->
+<!--            <package name="com.example"/>-->
+<!--        </packages>-->
+
+<!--        <classes>-->
+<!--            <class name="com.example.Setup_teardown"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="test_depen">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Group_3"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.example.GroupDependencies">-->
+<!--                &lt;!&ndash;                <methods>&ndash;&gt;-->
+<!--                &lt;!&ndash;                    <exclude name="groupThird" />&ndash;&gt;-->
+<!--                &lt;!&ndash;                </methods>&ndash;&gt;-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
